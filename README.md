@@ -11,8 +11,9 @@
 <a href="https://twitter.com/caiyue5"><img src="https://img.shields.io/twitter/follow/caiyue5.svg?style=social"></a>
 
 IceCream helps you sync Realm Database with CloudKit.
+IceCream 可帮助您将 Realm Database 与 CloudKit 同步。
 
-> It works like magic!
+> It works like magic! (它像魔术一样工作)
 
 ## Features
 
