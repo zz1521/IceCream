@@ -18,41 +18,41 @@ IceCream 可帮助您将 Realm Database 与 CloudKit 同步。
 ## Features
 
 - Realm Database
-    - [x] Off-line First
-    - [x] Thread Safety
-    - [x] Reactive Programming
-    - [x] Optimized for mobile apps
-    - [x] Easy when migrating
+    - [x] Off-line First (离线优先)
+    - [x] Thread Safety (线程安全)
+    - [x] Reactive Programming (响应式编程)
+    - [x] Optimized for mobile apps (针对移动应用进行了优化)
+    - [x] Easy when migrating (迁移简单)
 
-- Apple CloudKit
-    - [x] Automatical Authentication
-    - [x] Silent Push 
-    - [x] Free with limits(Private database consumes your user's iCloud quota)
+- Apple CloudKit 
+    - [x] Automatical Authentication (自动身份验证)
+    - [x] Silent Push (静默推送)
+    - [x] Free with limits(Private database consumes your user's iCloud quota)(免费限制（私人数据库使用用户的iCloud配额）)
 
-- [x] Delta update
+- [x] Delta update (增量更新)
 - [x] Reachability(Support Long-lived Operation) 
-- [x] Powerful Error Handling 
-- [x] Sync Automatically
-- [x] Multiple object models support
-- [x] Public/Private Database support
-- [x] Large Data Syncing
-- [x] Manually Synchronization is also supported
-- [x] Relationship(To-One/To-Many) support
-- [x] Available on every Apple platform(iOS/macOS/tvOS/watchOS)
-- [x] Support Realm Lists of Natural Types
-- [ ] Complete Documentation 
+- [x] Powerful Error Handling (强大的错误处理)
+- [x] Sync Automatically (自动同步)
+- [x] Multiple object models support (多对象模型支持)
+- [x] Public/Private Database support (公共/私有数据库支持)
+- [x] Large Data Syncing (大数据同步)
+- [x] Manually Synchronization is also supported (还支持手动同步)
+- [x] Relationship(To-One/To-Many) support (关系（对一/对多）支持)
+- [x] Available on every Apple platform(iOS/macOS/tvOS/watchOS) (可在所有 Apple 平台上使用（iOS/macOS/tvOS/watchOS）)
+- [x] Support Realm Lists of Natural Types (支持Natural类型的Realm Lists)
+- [ ] Complete Documentation (完整的文档)
 
-## Prerequisite
+## Prerequisite (前提条件)
 
-1. Be sure to have enrolled in Apple Developer Program
-2. Turn on your iCloud in Capabilities and choose `CloudKit`
-3. Turn on Background Modes and check `Background fetch` and `Remote notification` 
+1. Be sure to have enrolled in Apple Developer Program (请务必注册 Apple 开发者计划)
+2. Turn on your iCloud in Capabilities and choose `CloudKit` (在“Capabilities”中打开iCloud，然后选择“CloudKit”)
+3. Turn on Background Modes and check `Background fetch` and `Remote notification`  (打开后台模式并选中“Background fetch”和“Remote notification”)
 
-## Usage
+## Usage (用法)
 
-### Basics
+### Basics (基本用法)
 
-1. Prepare your Realm Objects (e.g. Dog, Cat...):
+1. Prepare your Realm Objects (e.g. Dog, Cat...)(准备你的Realm对象):
 
 ```swift
 class Dog: Object {
